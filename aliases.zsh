@@ -19,6 +19,8 @@ alias bashme='subl ~/.profile'
 
 alias zshme='subl ~/.zshrc'
 
+alias editalias="subl ~/.oh-my-zsh/custom/aliases.zsh"
+
 alias sourcereset='source ~/.zshrc'
 
 alias finder='open .'
@@ -49,3 +51,5 @@ ulimit -S -n 2048
 alias grunt='nocorrect grunt'
 
 alias bower='noglob bower'
+
+alias digitalOcean="ssh root@107.170.45.120"
