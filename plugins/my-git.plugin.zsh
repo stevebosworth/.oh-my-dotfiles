@@ -15,7 +15,13 @@ function current_repository() {
 }
 
 
+echo "my-git loaded"
+
 # Aliases
-alias gaa='git add --all'
+alias gaa='git add --all .'
+compdef _git gaa=git-add
 alias gpt='git push -u origin $(current_branch)'
+compdef _git gpt=git-push
+
+
 
