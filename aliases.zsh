@@ -17,7 +17,7 @@ alias newgruntinit="cd /etc/"
 
 alias bashme='subl ~/.profile'
 
-alias zshme='subl ~/.zshrc'
+alias zshme='subl ~/.oh-my-zsh/custom/aliases.zsh'
 
 alias editalias="subl ~/.oh-my-zsh/custom/aliases.zsh"
 
@@ -37,10 +37,12 @@ alias android="/Applications/Android\ Studio.app/sdk/tools/android"
 
 alias nexus4="/Applications/Android\ Studio.app/sdk/tools/emulator -avd nexus-4"
 
-alias ios='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+alias ios='open /applications/xcode.app/contents/Developer/Applications/iOS\ Simulator.app'
 
 alias spotlight='sudo mdutil -a -i'
 #  options 'on' or 'off'
+
+alias steve.ngrok='ngrok -subdomain steve'
 
 mkcd() {
     command mkdir $1 && cd $1
@@ -52,4 +54,10 @@ alias grunt='nocorrect grunt'
 
 alias bower='noglob bower'
 
-alias digitalOcean="ssh root@107.170.45.120"
+alias digitalOceanRoot="ssh root@107.170.45.120"
+
+alias digitalOcean="ssh steve@107.170.45.120"
+
+alias mvim="/Applications/MacVim.app/contents/MacOS/MacVim"
+
+alias dir="dirs"
